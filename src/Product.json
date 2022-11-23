@@ -1,0 +1,45 @@
+[
+    {
+       "id": 1,
+       "title": "AK47",
+       "img": "https://cdn.britannica.com/70/123170-050-D7AAF458/AK-47.jpg",
+       "precio": 999,
+       "precioAnterior": 1500
+
+    },
+    {
+      "id": 2,
+       "title": "M4A1",
+       "img": "https://http2.mlstatic.com/D_NQ_NP_744484-MLA49747598451_042022-O.jpg",
+       "precio": 999,
+       "precioAnterior": 1500
+    },
+    {
+      "id": 3,
+       "title": "Rabi",
+       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Karan_Brar_2011.jpg/245px-Karan_Brar_2011.jpg",
+       "precio": 250,
+       "precioAnterior": 1500
+    },
+    {
+      "id": 4,
+       "title": "Perel",
+       "img": "https://campus.ort.edu.ar/static/archivos/usuarioperfil/73054",
+       "precio": 45,
+       "precioAnterior": 1500
+    },
+    {
+      "id": 5,
+       "title": "50cent",
+       "img": "https://i.scdn.co/image/6f0da41419b31d9d2ba55d2df212f59ad0668118",
+       "precio": 50,
+       "precioAnterior": 1500
+    },
+    {
+      "id": 6,
+       "title": "M4A1",
+       "img": "https://http2.mlstatic.com/D_NQ_NP_744484-MLA49747598451_042022-O.jpg",
+       "precio": 999,
+       "precioAnterior": 1500
+    }
+ ]

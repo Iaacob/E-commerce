@@ -11,7 +11,7 @@ function Header() {
                     <div className="row">
                         <div className="col-sm-6">
                             <div className="logo">
-                                <h1 ><Link to="/"style={{textDecoration: 'none'}}>e<span>Electronics</span></Link></h1>
+                                <h1 ><Link to="/"style={{textDecoration: 'none'}}>e<span>MercadoNegro</span></Link></h1>
                             </div>
                         </div>
 
