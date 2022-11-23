@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import "./css/style.css"
-import Layout from './components/layout';
+import AppRouter from './AppRouter';
 
 function App() {
   return (
    <>
-   <Layout/>
+   <AppRouter/>
    </>
   );
 }
