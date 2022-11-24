@@ -30,9 +30,11 @@ function Cards() {
                                             <div className="product-upper">
                                                 <img src={elemento.img} width="300px" alt="" />
                                             </div>
-                                            <h2><Link to="">{elemento.title}</Link></h2>
+                                            <h2>{elemento.title}</h2>
+                                            <h2><Link to="/detalle">Ver detalles</Link></h2>
+
                                             <div className="product-carousel-price">
-                                                <ins>{elemento.precio}</ins> <del>{elemento.precioAnterior}</del>
+                                                <ins>${elemento.precio}</ins> <del>{elemento.precioAnterior}</del>
                                             </div>
 
                                             <div className="product-option-shop">

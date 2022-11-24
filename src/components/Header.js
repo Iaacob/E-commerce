@@ -78,7 +78,9 @@ function Header() {
                             </li>
                             <li><a href="shop.html">Shop page</a></li>
                             <li><a href="single-product.html">Single product</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
+                            <li className="nav-item">
+                                <Link className="active" aria-current="page" to="/checkout">Checkout</Link>
+                            </li>
                             <li><a href="#">Category</a></li>
                             <li><a href="#">Others</a></li>
                             <li><a href="#">Contact</a></li>

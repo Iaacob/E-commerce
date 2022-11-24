@@ -4,42 +4,69 @@
        "title": "AK47",
        "img": "https://cdn.britannica.com/70/123170-050-D7AAF458/AK-47.jpg",
        "precio": 999,
-       "precioAnterior": 1500
-
+       "precioAnterior": 1500,
+       "descripcion": "El Avtomat Kalashnikova modelo 1947 o más conocido por el acrónimo AK-47 es un fusil de asalto soviético, de calibre 7,62 mm, diseñado por Mijaíl Kaláshnikov, combatiente soviético durante la Segunda Guerra Mundial. Fue el fusil oficial de la Unión Soviética entre 1951 y 1978.",
+       "reviews": "5 estrellas",
+       "categoria": "Armas"
     },
     {
       "id": 2,
        "title": "M4A1",
        "img": "https://http2.mlstatic.com/D_NQ_NP_744484-MLA49747598451_042022-O.jpg",
        "precio": 999,
-       "precioAnterior": 1500
+       "precioAnterior": 1500,
+       "descripcion": "Longitud: 756 mm (con culata retraída) 838 mm (con culata extendida)",
+       "reviews": "5 estrellas",
+       "categoria": "Armas"
     },
     {
       "id": 3,
        "title": "Rabi",
        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Karan_Brar_2011.jpg/245px-Karan_Brar_2011.jpg",
        "precio": 250,
-       "precioAnterior": 1500
+       "precioAnterior": 1500,
+       "descripcion": "rabirabirabirabirabirabi",
+       "reviews": "5 estrellas",
+       "categoria": "niño"
     },
     {
       "id": 4,
        "title": "Perel",
        "img": "https://campus.ort.edu.ar/static/archivos/usuarioperfil/73054",
        "precio": 45,
-       "precioAnterior": 1500
+       "precioAnterior": 1500,
+       "descripcion": "barabarabara pereperepere donde estas perel?????",
+       "reviews": "5 estrellas",
+       "categoria": "niño"
     },
     {
       "id": 5,
        "title": "50cent",
        "img": "https://i.scdn.co/image/6f0da41419b31d9d2ba55d2df212f59ad0668118",
        "precio": 50,
-       "precioAnterior": 1500
+       "precioAnterior": 1500,
+       "descripcion": "i dont know what you heard about me",
+       "reviews": "5 estrellas",
+       "categoria": "niño"
     },
     {
       "id": 6,
        "title": "M4A1",
        "img": "https://http2.mlstatic.com/D_NQ_NP_744484-MLA49747598451_042022-O.jpg",
        "precio": 999,
-       "precioAnterior": 1500
+       "precioAnterior": 1500,
+       "descripcion": "Longitud: 756 mm (con culata retraída) 838 mm (con culata extendida)",
+       "reviews": "5 estrellas",
+       "categoria": "Armas"
+    },
+    {
+      "id": 7,
+       "title": "Meta Azul",
+       "img": "https://static.wikia.nocookie.net/breakingbad/images/f/fa/Cristal_azul.png/revision/latest?cb=20130906111858&path-prefix=es",
+       "precio": 999,
+       "precioAnterior": 1500,
+       "descripcion": "Longitud: 756 mm (con culata retraída) 838 mm (con culata extendida)",
+       "reviews": "5 estrellas",
+       "categoria": "drogas"
     }
  ]
