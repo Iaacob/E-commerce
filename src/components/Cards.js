@@ -31,7 +31,7 @@ function Cards() {
                                                 <img src={elemento.img} width="300px" alt="" />
                                             </div>
                                             <h2>{elemento.title}</h2>
-                                            <h2><Link to="/detalle">Ver detalles</Link></h2>
+                                            <h2><Link to={"/detalle/"+elemento.id}>Ver detalles</Link></h2>
 
                                             <div className="product-carousel-price">
                                                 <ins>${elemento.precio}</ins> <del>{elemento.precioAnterior}</del>

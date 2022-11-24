@@ -7,7 +7,8 @@
        "precioAnterior": 1500,
        "descripcion": "El Avtomat Kalashnikova modelo 1947 o más conocido por el acrónimo AK-47 es un fusil de asalto soviético, de calibre 7,62 mm, diseñado por Mijaíl Kaláshnikov, combatiente soviético durante la Segunda Guerra Mundial. Fue el fusil oficial de la Unión Soviética entre 1951 y 1978.",
        "reviews": "5 estrellas",
-       "categoria": "Armas"
+       "categoria": "Armas",
+       "img2": ""
     },
     {
       "id": 2,
@@ -17,7 +18,8 @@
        "precioAnterior": 1500,
        "descripcion": "Longitud: 756 mm (con culata retraída) 838 mm (con culata extendida)",
        "reviews": "5 estrellas",
-       "categoria": "Armas"
+       "categoria": "Armas",
+       "img2": ""
     },
     {
       "id": 3,
@@ -27,7 +29,8 @@
        "precioAnterior": 1500,
        "descripcion": "rabirabirabirabirabirabi",
        "reviews": "5 estrellas",
-       "categoria": "niño"
+       "categoria": "niño",
+       "img2": ""
     },
     {
       "id": 4,
@@ -37,7 +40,8 @@
        "precioAnterior": 1500,
        "descripcion": "barabarabara pereperepere donde estas perel?????",
        "reviews": "5 estrellas",
-       "categoria": "niño"
+       "categoria": "niño",
+       "img2": ""
     },
     {
       "id": 5,
@@ -47,7 +51,8 @@
        "precioAnterior": 1500,
        "descripcion": "i dont know what you heard about me",
        "reviews": "5 estrellas",
-       "categoria": "niño"
+       "categoria": "niño",
+       "img2": "https://akamai.sscdn.co/letras/215x215/fotos/4/b/0/9/4b097a5a622bb0bce3df06f549580f30.jpg "
     },
     {
       "id": 6,
@@ -57,7 +62,8 @@
        "precioAnterior": 1500,
        "descripcion": "Longitud: 756 mm (con culata retraída) 838 mm (con culata extendida)",
        "reviews": "5 estrellas",
-       "categoria": "Armas"
+       "categoria": "Armas",
+       "img2": ""
     },
     {
       "id": 7,
@@ -67,6 +73,7 @@
        "precioAnterior": 1500,
        "descripcion": "Longitud: 756 mm (con culata retraída) 838 mm (con culata extendida)",
        "reviews": "5 estrellas",
-       "categoria": "drogas"
+       "categoria": "drogas",
+       "img2": ""
     }
  ]
