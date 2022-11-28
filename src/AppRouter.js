@@ -5,7 +5,6 @@ import Header from './components/Header';
 import Footer from "./components/Footer";
 import Cart from "./components/Cart";
 import Detalle from "./components/Detalle";
-import Checkout from "./components/Checkout";
 import Home from "./components/Home";
 
 const AppRouter = () => {

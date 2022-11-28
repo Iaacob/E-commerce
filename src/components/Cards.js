@@ -1,8 +1,11 @@
-import React from 'react'
+import { React, useContext } from 'react'
 import product from "../Product.json"
 import { Link } from 'react-router-dom'
+import {CartContext} from "./CartContext"
 
 function Cards() {
+    const { AddToCart } = useContext(CartContext)
+
     return (
         <>
             <div className="product-big-title-area">
@@ -38,7 +41,7 @@ function Cards() {
                                             </div>
 
                                             <div className="product-option-shop">
-                                                <a className="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Add to cart</a>
+                                                <Link to="/cart" className="add_to_cart_button" onClick={() => AddToCart(elemento)} data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow">Add to cart</Link>
                                             </div>
                                         </div>
                                     </div>

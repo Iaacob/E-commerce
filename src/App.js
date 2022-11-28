@@ -1,12 +1,13 @@
 import './App.css';
 import "./css/style.css"
 import AppRouter from './AppRouter';
+import { CartProvider } from './components/CartContext';
 
 function App() {
   return (
-   <>
-   <AppRouter/>
-   </>
+   <CartProvider>
+    <AppRouter/>
+   </CartProvider>
   );
 }
 
