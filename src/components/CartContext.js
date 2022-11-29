@@ -1,5 +1,4 @@
 import { createContext, useState } from 'react'
-import product from "../Product.json"
 
 export const CartContext = createContext();
 

@@ -3,7 +3,7 @@ import product from "../Product.json"
 import { Link } from 'react-router-dom'
 import {CartContext} from "./CartContext"
 
-function Cards() {
+function SingleProduct() {
     const { AddToCart } = useContext(CartContext)
 
     return (
@@ -28,7 +28,7 @@ function Cards() {
                         {
                             product.map(
                                 (elemento) =>
-                                    <div className="col-md-4 col-sm-6">
+                                    <div className="col-md- col-sm-6">
                                         <div className="single-shop-product">
                                             <div className="product-upper">
                                                 <img src={elemento.img} width="300px" alt="" />
@@ -57,4 +57,4 @@ function Cards() {
     )
 }
 
-export default Cards
+export default SingleProduct;

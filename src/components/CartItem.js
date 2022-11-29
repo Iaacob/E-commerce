@@ -18,12 +18,12 @@ const CartItem = ({item}) => {
 
           <div className="d-flex align-items-center">
             <p className="fw-bold mb-0 me-5 pe-3">${item.precio}</p>
-            {/* <div className="def-number-input d-flex flex-row align-items-center number-input safari_only">
+            <div className="def-number-input d-flex flex-row align-items-center number-input safari_only">
               <button className="minus"  value="-">-</button>
               <input className="quantity fw-bold text-black" min="0" name="quantity" value={item.cantidad}
                 type="number" />
               <button className="plus" value="+">+</button>
-            </div>         */}
+            </div>        
             <button onClick={() => DeleteFromCart(item)} className="btn remove"><Icon icon="dashicons:remove" rotate={2} hFlip={true} vFlip={true} /></button>
 
           </div>
@@ -31,5 +31,6 @@ const CartItem = ({item}) => {
       </div>
     </>  )
 }
+
 
 export default CartItem

@@ -1,10 +1,12 @@
-import React from 'react'
+import { React, useContext } from 'react'
 import product from "../Product.json"
 import { useParams, Link } from 'react-router-dom'
+import { CartContext } from "./CartContext"
 
 
 function Detalle() {
 
+    const { AddToCart } = useContext(CartContext)
 
     const {id} = useParams() 
     const producto = product.find(p => p.id === parseInt(id))
@@ -34,7 +36,7 @@ function Detalle() {
             <div className="row">
 
                 <div className="col-md-4">
-                    <div className="single-sidebar">
+                    {/* <div className="single-sidebar">
                         <h2 className="sidebar-title">Search Products</h2>
                         <form action="">
                             <input type="text" placeholder="Search products..."/>
@@ -72,9 +74,9 @@ function Detalle() {
                                 <ins>$700.00</ins> <del>$800.00</del>
                             </div>                             
                         </div>
-                    </div>
+                    </div> */}
                     
-                    <div className="single-sidebar">
+                    {/* <div className="single-sidebar">
                         <h2 className="sidebar-title">Recent Posts</h2>
                         <ul>
                             <li><a href="">Sony Smart TV - 2015</a></li>
@@ -83,7 +85,7 @@ function Detalle() {
                             <li><a href="">Sony Smart TV - 2015</a></li>
                             <li><a href="">Sony Smart TV - 2015</a></li>
                         </ul>
-                    </div>
+                    </div> */}
                 </div>  
                 
                 <div className="col-md-8">
@@ -119,11 +121,12 @@ function Detalle() {
                                         <ins>${producto.precio}</ins> <del>${producto.precioAnterior}</del>
                                     </div>    
                                     
+                                    
                                     <form action="" className="cart">
                                         <div className="quantity">
                                             <input type="number" size="4" className="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1"/>
                                         </div>
-                                        <button className="add_to_cart_button" type="submit">Add to cart</button>
+                                        <button onClick={() => AddToCart(producto)} className="add_to_cart_button" type="submit">Add to cart</button>
                                     </form>   
                                     
                                     <div className="product-inner-category">

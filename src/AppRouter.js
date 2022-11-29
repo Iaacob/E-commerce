@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Cart from "./components/Cart";
 import Detalle from "./components/Detalle";
 import Home from "./components/Home";
+import SingleProduct from "./components/SingleProduct";
 
 const AppRouter = () => {
     return (
@@ -16,6 +17,8 @@ const AppRouter = () => {
                 <Route path="/" element={<Home/>} />
                 <Route path="/shop" element={<Cards/>} />
                 <Route path="/cart" element={<Cart/>} />
+                <Route path="/SingleProduct" element={<SingleProduct/>} />
+
                 <Route path="/detalle/:id" element={<Detalle/>} />
                 {/* <Route path="/checkout" element={<Checkout/>} /> */}
 

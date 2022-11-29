@@ -1,5 +1,5 @@
 import { React, useContext } from 'react'
-import { CartContext } from './CartContext'
+import {CartContext} from "./CartContext"
 import {Link} from 'react-router-dom'
 import CartItem from './CartItem';
 // import { useCartContext } from "../Context/cartContext";
@@ -52,20 +52,20 @@ function Cart() {
 
                                                 <div className="form-outline mb-5">
                                                     <input type="text" id="typeText" className="form-control form-control-lg" size="17"
-                                                        defaultValue="1234 5678 9012 3457" minLength="19" maxLength="19" />
+                                                        defaultValue="" minLength="19" maxLength="19" />
                                                     <label className="form-label" htmlFor="typeText">Card Number</label>
                                                 </div>
 
                                                 <div className="form-outline mb-5">
                                                     <input type="text" id="typeName" className="form-control form-control-lg" size="17"
-                                                        defaultValue="Martin Esses" />
+                                                        defaultValue="" />
                                                     <label className="form-label" htmlFor="typeName">Name on card</label>
                                                 </div>
 
                                                 <div className="row">
                                                     <div className="col-md-6 mb-5">
                                                         <div className="form-outline">
-                                                            <input type="text" id="typeExp" className="form-control form-control-lg" defaultValue="01/22"
+                                                            <input type="text" id="typeExp" className="form-control form-control-lg" defaultValue=""
                                                                 size="7" minLength="7" maxLength="7" />
                                                             <label className="form-label" htmlFor="typeExp">Expiration</label>
                                                         </div>
@@ -73,7 +73,7 @@ function Cart() {
                                                     <div className="col-md-6 mb-5">
                                                         <div className="form-outline">
                                                             <input type="password" id="typeText" className="form-control form-control-lg"
-                                                                defaultValue="&#9679;&#9679;&#9679;" size="1" minLength="3" maxLength="3" />
+                                                                defaultValue="" size="1" minLength="3" maxLength="3" />
                                                             <label className="form-label" htmlFor="typeText">Cvv</label>
                                                         </div>
                                                     </div>
@@ -85,7 +85,7 @@ function Cart() {
                                                 <button type="button" className="btn btn-primary btn-block btn-lg">Buy now</button>
 
                                                 <h5 className="fw-bold mb-5" style={{position: 'absolute', bottom: 0}}>
-                                                    <Link to="/"><i className="fa fa-angle-left me-2"></i>Back to shopping</Link>
+                                                    <Link to="/shop"><i className="fa fa-angle-left me-2"></i>Back to shopping</Link>
                                                 </h5>
 
                                             </form>
